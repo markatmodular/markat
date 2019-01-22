@@ -1,0 +1,154 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+
+#main {
+  
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    background: #d9d9d9;
+}
+
+
+
+
+
+/* BANNER*/
+
+
+#soon {
+  
+  display: inline;
+  position: absolute;
+  font-family: Miniver;
+  font-size: 100px;
+  left: 400px;
+  top: 250px;
+  
+}
+
+
+/* ANGLED BANNER*/
+
+#angled {
+  position: fixed;
+  top: 20px;
+  left: -200px;
+  width: 600px;
+  height: 30px;
+  transform: rotate(-40deg);
+  background: rgba(30,30,30,1);
+  z-index: 1000;
+}	
+
+#angled .text {
+  font-family: Montserrat;
+  color: rgb(255,255,255);
+  text-align: center;
+  padding-right: 80px;
+  padding-top: 4px;
+  isolation: isolate;
+  
+}
+
+
+
+
+/* WELCOME BOX*/
+
+#logo { 
+      position: fixed;
+      top: 30px; 
+      float: left;
+      height: 90px; 
+      width: 150px; 
+      padding: 160px 25px 15px 50px; 
+      background-color: rgba(206, 225, 206, 0.4); 
+      font-size: 18px; 
+      color: rgba(0, 0, 0, 1.0);  
+      font-family: 'Montserrat'; 
+      border-top: 2px; 
+      border-left: 0px; 
+      border-right: 0px; 
+      border-bottom: 0px; 
+      border-color: rgba(0, 0, 0, 0.7); 
+      border-style: solid;
+      animation-name: fade;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      z-index: 99;
+    }
+
+
+#logoText {
+  
+      position: fixed;
+      top: 100px;
+      left: 50px;
+      float: left;
+      height: 70px; 
+      width: 140px; 
+      font-family: Miniver;
+      color: rgb(255,255,255);
+      font-size: 35px; 
+      line-height: 88%;
+      z-index: 98;
+      mix-blend-mode: difference;
+}
+
+
+
+#newsletter {
+  
+  float: right;
+  width: 300px;
+  
+  
+}
+
+
+/* FOOTER*/
+
+
+#footer {
+  
+  width: 100%;
+  height: 50px;
+  background: #d9d9d9; 
+  display: inline-block;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+#footerText {
+  top: 160px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 15px;
+  letter-spacing: 15px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#stuff {
+  top: 160px;
+  font-family: Raleway;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 15px;
+  color: rgba(0, 0, 0, 0.04);
+}
+
+/* ANIMATIONS*/
+
+
+ @keyframes fade {
+    from {background-color: rgba(206, 238, 206, 0.4);}
+    to {background-color: rgba(256, 255, 206, 0.4);}
+    }
+
